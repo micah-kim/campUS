@@ -70,52 +70,58 @@ function NewPost(props) {
   }
   return (
     <div className="container">
-      <h1 style={{textAlign: 'center'}}>Upload a listing</h1>
-      <div className={css.photo}>
-        {!photo ? (
-          <div className={css.message}>Drop your image</div>
-        ) : (
-          <img src={photo} alt="New Post" />
-        )}
-        <FileLoader
-          onDragEnter={handleFileDragEnter}
-          onDragLeave={handleFileDragLeave}
-          onDrop={handleFileDrop}
-        >
-          <div
-            className={[css.dropArea, dragging ? css.dragging : null].join(" ")}
-          ></div>
-        </FileLoader>
+      <div className={css.bodyContainer}>
+        <div className={css.pageContainer}>
+        <div className={css.pageTitle}>
+          <h1 style={{textAlign: 'center'}}>Create New Event</h1>
+        </div>
+        <div className={css.photo}>
+          {!photo ? (
+            <div className={css.message}>Drop your image</div>
+          ) : (
+            <img src={photo} alt="New Post" />
+          )}
+          <FileLoader
+            onDragEnter={handleFileDragEnter}
+            onDragLeave={handleFileDragLeave}
+            onDrop={handleFileDrop}
+          >
+            <div
+              className={[css.dropArea, dragging ? css.dragging : null].join(" ")}
+            ></div>
+          </FileLoader>
+        </div>
+        <div className={css.desc}>
+          <textarea
+            placeholder="Insert title..."
+            rows="3"
+            value={itemTitle}
+            onChange={handleTitleChange}
+          />
+          <textarea
+            placeholder="Insert description..."
+            rows="3"
+            value={desc}
+            onChange={handleDescChange}
+          />
+          <textarea
+            placeholder="Insert price..."
+            rows="3"
+            value={price}
+            onChange={handlePriceChange}
+          />
+          <select onChange={handleCategoryChange}>
+            <option value="Furniture" >Furniture</option>
+            <option value="Clothes">Clothes</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div className={css.error}>{error}</div>
+        <div className={css.actions}>
+          <button onClick={() => navigate("/")}>Cancel</button>
+          <button onClick={handleSubmit}>Share</button>
+        </div>
       </div>
-      <div className={css.desc}>
-        <textarea
-          placeholder="Insert title..."
-          rows="3"
-          value={itemTitle}
-          onChange={handleTitleChange}
-        />
-        <textarea
-          placeholder="Insert description..."
-          rows="3"
-          value={desc}
-          onChange={handleDescChange}
-        />
-        <textarea
-          placeholder="Insert price..."
-          rows="3"
-          value={price}
-          onChange={handlePriceChange}
-        />
-        <select onChange={handleCategoryChange}>
-          <option value="Furniture" >Furniture</option>
-          <option value="Clothes">Clothes</option>
-          <option value="Other">Other</option>
-        </select>
-      </div>
-      <div className={css.error}>{error}</div>
-      <div className={css.actions}>
-        <button onClick={() => navigate("/")}>Cancel</button>
-        <button onClick={handleSubmit}>Share</button>
       </div>
     </div>
   );

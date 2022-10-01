@@ -1,3 +1,21 @@
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pageContainer {
+    background-color: blue;
+    border-radius: 20px;
+    max-width: 600px;
+
+}
+
+.pageTitle {
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .photo{
     /* width:100%; */
     position: relative;

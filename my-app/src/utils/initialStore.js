@@ -1,23 +1,23 @@
 export default {
-  currentUserId: "Jason",
+  currentUserId: "HackMIT",
   users: [
     {
-      id: "Micah",
+      id: "Alpha Delta Phi (ADP)",
       email: "micah.kim@bc.edu",
       phone: "6173966229",
       photo:
         "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
       bio: "I am a sophomore studying Computer Science. I love singing in my freetime!",
-      name: "Micah Kim",
+      name: "Alpha Delta Phi (ADP)",
     },
     {
-      id: "Jason",
+      id: "HackMIT",
       email: "jason.tee@bc.edu",
       phone: "6173966229",
       photo:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
       bio: "I am a senior studying Computer Science and a minor in Management and Leadership. I love building applications!",
-      name: "Jason jhhjkg",
+      name: "HackMIT",
     },
     {
       id: "Hajin",
@@ -33,7 +33,7 @@ export default {
   saleitems: [
     {
       id: "item-1",
-      sellerId: "Jason",
+      sellerId: "HackMIT",
       sellerImg:
         "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
       title: "Perspectives 1 Textbooks",
@@ -47,7 +47,7 @@ export default {
     },
     {
       id: "item-2",
-      sellerId: "Jason",
+      sellerId: "HackMIT",
       sellerImg:
         "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
       title: "Wooden Bed Frame",
@@ -101,7 +101,7 @@ export default {
     },
     {
       id: "item-6",
-      sellerId: "Micah",
+      sellerId: "Alpha Delta Phi (ADP)",
       sellerImg:
         "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
       title: "Boston College Grey Hoodie (size M)",
@@ -115,7 +115,7 @@ export default {
     },
     {
       id: "item-7",
-      sellerId: "Micah",
+      sellerId: "Alpha Delta Phi (ADP)",
       sellerImg:
         "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
       title: "Fundamental of Finance Textbook",
@@ -129,9 +129,9 @@ export default {
     },
     {
       id: "item-8",
-      sellerId: "Jason",
+      sellerId: "HackMIT",
       sellerImg:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
       title: "Nike Dunk Shoes (Men size 10)",
       image:
         "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Nike-Dunk-Low-UNC.webp?v=1650908156579",
@@ -157,7 +157,7 @@ export default {
     },
     {
       id: "item-10",
-      sellerId: "Jason",
+      sellerId: "HackMIT",
       sellerImg:
         "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
       title: "New Balance Men Boston College Merch Training Shorts",
@@ -171,7 +171,7 @@ export default {
     },
     {
       id: "item-11",
-      sellerId: "Micah",
+      sellerId: "Alpha Delta Phi (ADP)",
       sellerImg:
         "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
       title: "Leather Office Chair",
@@ -201,56 +201,56 @@ export default {
 
   reviews: [
     {
-      authorId: "Jason",
+      authorId: "HackMIT",
       reviewedId: "Hajin",
       description:
         "The textbook purchase was definitely worth it! He was so nice to me :)",
     },
     {
-      authorId: "Micah",
-      reviewedId: "Jason",
+      authorId: "Alpha Delta Phi (ADP)",
+      reviewedId: "HackMIT",
       description:
         "I love the bed frame! It is exactly what I wanted and was looking for.",
     },
     {
       authorId: "Hajin",
-      reviewedId: "Micah",
+      reviewedId: "Alpha Delta Phi (ADP)",
       description:
         "I do not recommend buying items from Hajin. It was a scam. The Kitchen Utensil Set was very dirty so I threw it away. ",
     },
     {
       authorId: "Hajin",
-      reviewedId: "Jason",
+      reviewedId: "HackMIT",
       description:
         "Jason responded very quickly and I was able to get my item really quickly! I would recommend Jason for sure. ",
     },
     {
       authorId: "Hajin",
-      reviewedId: "Jason",
+      reviewedId: "HackMIT",
       description:
         "I met up with Jason to pick up the item on campus. It was very quick and convenient. ",
     },
     {
-      authorId: "Jason",
-      reviewedId: "Micah",
+      authorId: "HackMIT",
+      reviewedId: "Alpha Delta Phi (ADP)",
       description:
         "Jason was very nice. He responded to my questions regarding the item and concerns that I had. I would definitely recommend getting items from Jason! ",
     },
     {
-      authorId: "Jason",
+      authorId: "HackMIT",
       reviewedId: "Hajin",
       description:
         "I was not satisfied with the item due to some damages I was not aware of. However, Jason was able to just give it for me for free! Very responsible. ",
     },
     {
-      authorId: "Micah",
+      authorId: "Alpha Delta Phi (ADP)",
       reviewedId: "Hajin",
       description:
         "I purchased my Finance textbook I needed for next semester from Micah. I was worried that it would be the different version but it was the same edition that I was looking for! It was used but still in clean, good condition. Was able to save up so much money!",
     },
     {
-      authorId: "Micah",
-      reviewedId: "Jason",
+      authorId: "Alpha Delta Phi (ADP)",
+      reviewedId: "HackMIT",
       description:
         "We have realized that we were in the same class which made the delivery process easier! I was able to get the shoes in our next class. This was another way of making friends! Love it :)",
     },

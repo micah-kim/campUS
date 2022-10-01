@@ -25,9 +25,9 @@ import Seo from './components/seo.jsx';
 // App function that is reflected across the site
 export default function App() {
   const [users, setLikes] = useState(()=>{
-    return JSON.parse(window.localStorage.getItem('users')) || initialStore.users;
+    return initialStore.users;
   });
-  
+
   const [items, setItems] = useState(initialStore.saleitems)
   const [reviews, setReviews] = useState(initialStore.reviews)
   const [page, setPage] = useState("home");
@@ -35,7 +35,9 @@ export default function App() {
     initialStore.currentUserId
   )
 
-  const [clubId, setClubId] = useState(initialStore.clubId)
+  const updateState = () => {
+    setCurrentUserId(initialStore.currentUserId);
+  }
   
   useEffect(()=>{
 	  console.log(users);
@@ -84,8 +86,11 @@ export default function App() {
               path="/"
               element={
                 <Explore
+                  currentUserId={currentUserId}
                   users={users}
                   items={items}
+                  reviews={reviews}
+                  addReview={addReview}
                 />
               }
             />
@@ -114,8 +119,11 @@ export default function App() {
               path="/:listingId"
               element={
                 <Listings 
+                  currentUserId={currentUserId}
                   users={users}
                   items={items}
+                  reviews={reviews}
+                  addReview={addReview}
                   />
               }
               />
