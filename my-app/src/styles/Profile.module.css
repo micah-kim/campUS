@@ -1,0 +1,118 @@
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profileContainer2 {
+  max-width: 600px;
+  margin: 0 20px
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.info {
+  justify-content: space-around;
+  border-top: 1px solid lightgray;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+
+.gray {
+  color: #999999;
+}
+
+.blackBold {
+  color: black;
+  font-weight: 600;
+}
+
+.profileName {
+  font-size: 28px;
+}
+
+.userBio {
+  padding: 10px 0;
+}
+.followBtn{
+    background: #3897f0;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin:10px 0px;
+}
+.unfollowBtn{
+    background:transparent;
+    border: 1px solid #dbdbdb;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin:10px 0px;
+}
+
+.reviewsList {
+  margin: 25px 0;
+}
+
+/* this will change the cursor to indicate its clickability*/
+button{
+  cursor:pointer;
+}
+
+.userProfile {
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.userProfile img {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  border: 1px solid black;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.actions{
+    width:100%;
+    box-sizing: border-box;
+    padding:16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button{
+    color:#3897f0;
+    font-weight: 600;
+    font-size: 16px;
+}

@@ -1,0 +1,24 @@
+button{
+  padding: 0;
+  border:0;
+  background: none;
+  font-size: 100%;
+  font-family: inherit;
+}
+button:focus{
+  outline: none;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 44px;
+}
+
+html {
+  font-family: Georgia, serif;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}

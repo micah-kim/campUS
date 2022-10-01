@@ -1,0 +1,107 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px 0;
+  padding: 10px;
+}
+
+.itemContainer {
+  background-color: #F5F5DC;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.userProfile {
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.userProfile img {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  border: 1px solid black;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.sellerName {
+  text-decoration: none;
+  color: black;
+}
+
+.sellerName:hover {
+  text-decoration: underline;
+}
+
+.userProfile div{
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.listingImg {
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.listingInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.listingInfoItem {
+  padding: 3px 0;
+}
+
+.sellerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.contactSellerButton {
+  background-color: #FFD580;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  height: 25px;
+  
+}
+
+.contactSellerLink {
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 10px;
+  }
+  .listingImg {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+  }
+}

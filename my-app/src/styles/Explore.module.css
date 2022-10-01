@@ -1,0 +1,26 @@
+.postContainer {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  height: 100%;
+}
+
+.searchContainer {
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  background-color: #FFD580;
+}
+
+.labelItem {
+  padding: 0 15px;
+}
+
+.postItem {
+  padding: 0 10px 10px 10px;
+}
+
+.postImg {
+  width: 200px;
+  height: 200px;
+}
