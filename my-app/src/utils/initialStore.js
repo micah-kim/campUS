@@ -5,28 +5,25 @@ export default {
       id: "Alpha Delta Phi (ADP)",
       email: "micah.kim@bc.edu",
       phone: "6173966229",
-      photo:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
-      bio: "I am a sophomore studying Computer Science. I love singing in my freetime!",
+      photo: "https://images.squarespace-cdn.com/content/v1/542c9b0de4b0de4a5f820179/1598030954558-VB8P33DJNONFXXSXXCRN/adpcrest+-+Sergio+Cuadra.png",
+      bio: "You know it, you love it—and we've got it! Link up with some bros and take a Pika at our mad skills, or Kirb-stomp us 'til we be PK-cryin'.",
       name: "Alpha Delta Phi (ADP)",
     },
     {
       id: "HackMIT",
       email: "jason.tee@bc.edu",
       phone: "6173966229",
-      photo:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
-      bio: "I am a senior studying Computer Science and a minor in Management and Leadership. I love building applications!",
+      photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
+      bio: "HackMIT is a weekend-long event where thousands of students from around the world come together to work on cool software and/or hardware projects. As one of the largest undergraduate hackathons in the world, we typically bring in over 1000 students to MIT's campus each fall. This year, HackMIT is back to being fully in-person on MIT's campus during the weekend of October 1st. Students will be building, learning, and creating technology projects from scratch. Websites and mobile apps are common types of hacks, but you can build anything! Think outside the box : )",
       name: "HackMIT",
     },
     {
-      id: "Hajin",
+      id: "Office of Religious, Spiritual, and Ethical Life",
       email: "hajin.cho@bc.edu",
       phone: "6173966229",
-      photo:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/hajin.jpeg?v=1650420461705",
-      bio: "I am a sophomore student studying Computer Science and Philosophy. I enjoy playing golf!",
-      name: "Hajin Cho",
+      photo: "https://studentlife.mit.edu/sites/default/files/styles/tier_2_header/public/Headers/Chapel%20Interior%202.jpg?itok=OPzxCJC0",
+      bio: "Serving the community of religious, spiritual, and ethical traditions at MIT",
+      name: "Office of Religious, Spiritual, and Ethical Life",
     },
   ],
 
@@ -34,67 +31,43 @@ export default {
     {
       id: "item-1",
       sellerId: "HackMIT",
-      sellerImg:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
-      title: "Perspectives 1 Textbooks",
-      image:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/books.jpeg?v=1650391331234",
-      description:
-        "These are some used perspectives textbooks. I used them my freshman year and am selling them for much cheaper than the bookstore!",
-      price: "19.99",
+      sellerImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
+      title: "BNB Chain Workshop",
+      image: "https://yt3.ggpht.com/MBCkVSAQDNbvonAPOX_DuLpcZfrI6DGLHcwez5M8biPVH1k8p8MSM0P0JZwNDNaaJsjlxM1N=s900-c-k-c0x00ffffff-no-rj",
+      description: "These are some used perspectives textbooks. I used them my freshman year and am selling them for much cheaper than the bookstore!",
       date: "2020-02-09T22:52:01Z",
       category: "Other",
     },
     {
       id: "item-2",
       sellerId: "HackMIT",
-      sellerImg:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
-      title: "Wooden Bed Frame",
-      image:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/furniture.jpeg?v=1650394031303",
-      description:
-        "Working TV stand. It is fully made of wood. Used for a year.",
+      sellerImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
+      title: "Y Combinator Pitch Challenge",
+      image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Y_Combinator_logo.svg",
+      description: "Y Combinator is a startup accelerator, investing in hundreds of early stage startups every year. Our selection process for startups involves a written application + a live interview. For our challenge, we’ll run a mini-version of that selection process, giving you a taste of what it’s really like to try and raise venture capital for your team + idea! See full details on how to participate in the challenge here.",
       price: "29.99",
       date: "2020-02-09T22:52:01Z",
       category: "Furniture",
     },
     {
       id: "item-3",
-      sellerId: "Micah",
+      sellerId: "Alpha Delta Phi (ADP)",
       sellerImg:
         "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
-      title: "Kitchen Utensil Set",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/kitchen.jpg?v=1650402238373",
-      description:
-        "Some used kitchen utensils. Used regularly but they are all in good condition. I need to get rid of them since I am graduating.",
+      title: "Smash Bros Tournament",
+      image: "https://assets1.ignimgs.com/2018/03/08/screen-shot-2018-03-08-at-24144-pm-2-1520550781828_160w.png?width=1280",
+      description: "How many times in your life have you found yourself asking yourself the following question: how can I become the best I can be? If you’re like most of us, chances are that, as much as you’d like to ask, there just is never enough time or concentration available to do so. It’s MIT. Classes are challenging, research and extracurriculars are everywhere, and in this vortex time is always escaping. That’s where Alpha Delta Phi comes in.",
       price: "9.99",
       date: "2020-02-09T22:52:01Z",
       category: "Other",
     },
     {
-      id: "item-4",
-      sellerId: "Hajin",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/hajin.jpeg?v=1650420461705",
-      title: "Multivariable Calculus Textbook (2nd edition)",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/textbook.jpg?v=1650424683409",
-      description: "Some used .",
-      price: "19.99",
-      date: "2020-02-09T22:52:01Z",
-      category: "Other",
-    },
-    {
       id: "item-5",
-      sellerId: "Hajin",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/hajin.jpeg?v=1650420461705",
-      title: "Wooden TV Stand",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/tvstand.jpg?v=1650424779136",
-      description: "Some used. Still in great condition. Open to offers .",
+      sellerId: "Office of Religious, Spiritual, and Ethical Life",
+      sellerImg: "https://studentlife.mit.edu/sites/default/files/styles/tier_2_header/public/Headers/Chapel%20Interior%202.jpg?itok=OPzxCJC0",
+      title: "Community Dinner",
+      image: "https://localist-images.azureedge.net/photos/41024135182391/big_square/c21368c9c4b69417292ff7c965ec101d8be745f0.jpg",
+      description: "We hope you'll join us for Monday Night Community Dinners! Everyone is invited for a home-cooked meal, fun, friends, and food you can take home for your own cooking.  Bring your friends and classmates, and meet new people, see what we're cooking and what we have to give away each week. We can't wait to meet you!",
       price: "25",
       date: "2022-02-09T22:52:01Z",
       category: "Furniture",
@@ -102,13 +75,10 @@ export default {
     {
       id: "item-6",
       sellerId: "Alpha Delta Phi (ADP)",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
-      title: "Boston College Grey Hoodie (size M)",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Clothes.png?v=1650907030835",
-      description:
-        "Almost New. Great Essential BC gear! Size Tag is missing but fits like a medium.  .",
+      sellerImg: "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
+      title: "Codzilla Speedboat!",
+      image: "https://static.dezeen.com/uploads/2016/09/aston-martin-power-speedboat-transport-boat-design_dezeen_sq.jpg",
+      description: "A thrill a minute as you scream across the Boston Harbor at up to 40 MPH, with a few hairpin turns and 360-degree spins thrown in for evil measure.",
       price: "20",
       date: "2021-04-09T22:52:01Z",
       category: "Clothes",
@@ -116,13 +86,10 @@ export default {
     {
       id: "item-7",
       sellerId: "Alpha Delta Phi (ADP)",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
-      title: "Fundamental of Finance Textbook",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Finance%20Textbook.jpeg?v=1650907750249",
-      description:
-        "Never Used. Bought the textbook last semester, 2021 Fall, for Professor Jorring's Fundamental of Finance course. ",
+      sellerImg: "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
+      title: "Fondue, Cheesecake, and other Desserts",
+      image: "https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4-500x500.jpg",
+      description: "Deep in the halls of the Alpha Delta Phi, a tasty abomination will be born. Come enjoy some delicious desserts with the bros!",
       price: "60",
       date: "2021-11-09T22:52:01Z",
       category: "Other",
@@ -130,72 +97,46 @@ export default {
     {
       id: "item-8",
       sellerId: "HackMIT",
-      sellerImg:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
+      sellerImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
       title: "Nike Dunk Shoes (Men size 10)",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Nike-Dunk-Low-UNC.webp?v=1650908156579",
-      description:
-        " Shoes in great preloved condition! I love the light-blue color of these UNC Nike Dunk Low. Original box included. If you have questions don't hesitate to ask. ",
+      image: "https://lhra.io/wp-content/uploads/2018/11/ibm-logo.jpeg",
+      description: "Generative Adversarial Networks and Transformer pipelines are ushering in the very beginning of Artificial General Intelligence, where machines 'experience' and not just learn. Perhaps a better way to think of AI is that of prediction machines that augment human intelligence not supplant it. To gain insights from what it is that you don't know, that you don't know. Watson Studio and AutoAI are designed to take the coding off your hands and enable modern data scientists to build and deploy AI models. Let's explore the nuances of machines that understand, reason, learn and interact - the very definition of cognitive systems.",
       price: "200",
       date: "2021-11-09T22:52:01Z",
       category: "Clothes",
     },
     {
-      id: "item-9",
-      sellerId: "Hajin",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/hajin.jpeg?v=1650420461705",
-      title: "Bean Bag Chair perfect for dorm",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Pillow couch.png?v=1650916159309",
-      description:
-        "The chair is a good size for the common room. It is very comfortable and has been used for 1 year. There is also a side sleeve pocket for holding a book! ",
-      price: "80",
-      date: "2021-10-09T22:52:01Z",
-      category: "Furniture",
+      id: "item-12",
+      sellerId: "Office of Religious, Spiritual, and Ethical Life",
+      sellerImg: "https://studentlife.mit.edu/sites/default/files/styles/tier_2_header/public/Headers/Chapel%20Interior%202.jpg?itok=OPzxCJC0",
+      title: "The Power of RELATIONSHIPS",
+      image: "https://localist-images.azureedge.net/photos/41031171108235/huge/ad14b1474c0e28a96a7a6340d3aaf124f8baa39b.jpg",
+      description: "Human relationships can be uplifting or distressing based on how we handle relationships. This series of workshops explores the power of relationships, setting the right expectations, and tools to strengthen one's relationships. Learn the art of how meaningful relationships can create conducive environments for both individuals and communities to thrive.\nSadananda Dasa, Vaishnava Hindu Chaplain, will share insightful principles on building and maintaining healthy relationships. These sessions will draw wisdom from timeless sacred texts Bhagavad Gita and Srimad Bhagavatam. The sessions will have both instructive and interactive components.",
+      price: "43",
+      date: "2021-02-09T22:52:01Z",
+      category: "Other"
     },
     {
       id: "item-10",
       sellerId: "HackMIT",
-      sellerImg:
-        "https://cdn.glitch.global/16f44a30-eb40-4ea4-9589-7ac0ef3fb742/jason.jpeg?v=1650397334972",
+      sellerImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/HackMIT_2021_light_square_logo.svg/1200px-HackMIT_2021_light_square_logo.svg.png",
       title: "New Balance Men Boston College Merch Training Shorts",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Training Shorts.png?v=1650919522905",
-      description:
-        "Black Training pants. Men size Large. Selling them because it is too big on me! Brand new condition. ",
+      image: "https://www.k-state.edu/k-publisher/custom-images/2021/Feb/2021-Feb-10_2115_15-team-tr.jpg",
+      description: "Black Training pants. Men size Large. Selling them because it is too big on me! Brand new condition. ",
       price: "25",
       date: "2022-02-09T22:52:01Z",
       category: "Clothes",
     },
     {
-      id: "item-11",
-      sellerId: "Alpha Delta Phi (ADP)",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/IMG_7182-2.jpg?v=1650402550811",
-      title: "Leather Office Chair",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/Office Chair.png?v=1650920268097",
-      description:
-        "I am selling my office chair. I am selling it because I will be abroad next semester - no damage but in great condition.The Faux-leather upholstery adds classic charm. It pairs easily with any decor style. Great way to decorate your dorm!",
-      price: "85",
+      id: "item-9",
+      sellerId: "Office of Religious, Spiritual, and Ethical Life",
+      sellerImg: "https://studentlife.mit.edu/sites/default/files/styles/tier_2_header/public/Headers/Chapel%20Interior%202.jpg?itok=OPzxCJC0",
+      title: "The Table – Progressive Christian Worship",
+      image: "https://cf3.gatewaypeople.com/production/fae/image/asset/6441/gatewayworship_webbanner.jpg",
+      description: "Join us for worship and conversation with Holy Communion at 5:15 in the MIT Chapel followed by dinner provided by the chaplains.\n You are truly welcome to come as you are: undergrad, grad, or post-doc; sure of your faith or wondering what it is all about; gay, straight, bi, trans*, questioning. This is a space in which hard questions are welcome and burdens may be shared or left at the door.",
+      price: "80",
       date: "2021-10-09T22:52:01Z",
       category: "Furniture",
-    },
-    {
-      id: "item-12",
-      sellerId: "Hajin",
-      sellerImg:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/hajin.jpeg?v=1650420461705",
-      title: "LED Light Charging Vanity Mirror",
-      image:
-        "https://cdn.glitch.global/ce0002dc-953f-4129-932c-7d7d80b9c980/LED Mirror.png?v=1650919959567",
-      description:
-        "This is a mirror I have used for 4 years. Still in good condition. Slight damage can be noticeable. It also has a dimable LED light for that perfect selfie lighting. It can turn 360 degrees and has a spot to charge your phone while you get ready for the day! ",
-      price: "43",
-      date: "2021-02-09T22:52:01Z",
-      category: "Other",
     },
   ],
 
