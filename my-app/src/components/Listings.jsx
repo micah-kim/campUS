@@ -30,7 +30,6 @@ function Listings(props) {
               <div className={css.sellerContainer}>
                 <div className={css.listingInfo}>
                   <div className={css.listingInfoItem}>{ele.title}</div>
-                  <div className={css.listingInfoItem}>${ele.price}</div>
                   <div className={css.listingInfoItem}>{timespan(ele.date)}</div>
                 </div>
                 <div className={css.buttonContainer}>
@@ -48,7 +47,7 @@ function Listings(props) {
       })
         :
         
-        items.sort((a, b)=>new Date(b.date) - new Date(a.date)).map((ele, index) => {
+        items.sort((a, b)=>new Date(b.date) - new Date(a.date)).reverse().map((ele, index) => {
         const user = users.find((us) => us.id === ele.sellerId)
         return (
           <div className={css.itemContainer} key={`${index}-listing`}>
@@ -68,7 +67,6 @@ function Listings(props) {
               <div className={css.sellerContainer}>
                 <div className={css.listingInfo}>
                   <div className={css.listingInfoItem}>{ele.title}</div>
-                  <div className={css.listingInfoItem}>${ele.price}</div>
                   <div className={css.listingInfoItem}>{timespan(ele.date)}</div>
                 </div>
                 <div className={css.buttonContainer}>
