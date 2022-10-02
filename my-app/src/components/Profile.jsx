@@ -56,7 +56,7 @@ function Profile(props) {
               </Link>
             ))}
           </div>
-          <h1>User Reviews</h1>
+          <h1>Comments</h1>
           <div>
             {reviews.map((review, i) => {
               const user = props.users.find((u) => u.id === review.authorId);
@@ -65,7 +65,7 @@ function Profile(props) {
                   <div className={`${css.row} ${css.userProfile}`}>
                     <img src={user.photo} />
                     <div className={css.name} to={`Profile/${user.id}`}>
-                      <div>{user.id}</div>
+                      <div><b>{user.id}</b></div>
                     </div>
                   </div>
                   <div>{review.description}</div>
