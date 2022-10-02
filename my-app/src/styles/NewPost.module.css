@@ -1,3 +1,7 @@
+::placeholder {
+    color: white;
+}
+
 .bodyContainer {
     display: flex;
     justify-content: center;
@@ -5,7 +9,7 @@
 }
 
 .pageContainer {
-    background-color: blue;
+    background-color: #A31F34;
     border-radius: 20px;
     max-width: 600px;
 
@@ -48,6 +52,7 @@
     position: absolute;
     top: 50%; 
     width: 100%;
+    color: white;
 }
 .image{
     position: absolute;
@@ -87,4 +92,8 @@
 .error{
     color:#FF1744;
     padding:4px 16px;
+}
+
+.titleName {
+    color: #A31F34;
 }

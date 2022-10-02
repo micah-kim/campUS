@@ -10,15 +10,11 @@
     height: 44px;
     padding: 40px 18px;
     z-index: 1000;
-    
-
-    border-top: 1px solid #dbdbdb;
-    border-bottom: 1px solid #dbdbdb;
-    background-color: #A31F34;
+    background-color: #C2C0BF;
 }
 
 .logo {
   height: 60px;
-  width: 60px;
-  border-radius: 50%;
+  padding: 10px;
+  background-color: #C2C0BF;
 }

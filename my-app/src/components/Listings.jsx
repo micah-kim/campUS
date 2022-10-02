@@ -10,7 +10,7 @@ function Listings(props) {
   return (
     <div className={css.container}>
       {listingId ? 
-        items.filter((listing) => listing.id === listingId).sort((a, b)=>new Date(b.date) - new Date(a.date)).map((ele, index) => {
+        items.filter((listing) => listing.id === listingId).sort((a, b)=> new Date(b.date) - new Date(a.date)).map((ele, index) => {
         const user = users.find((us) => us.id === ele.sellerId)
         return (
           <div className={css.itemContainer} key={`${index}-listing`}>

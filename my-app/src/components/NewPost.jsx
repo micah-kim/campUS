@@ -73,7 +73,7 @@ function NewPost(props) {
       <div className={css.bodyContainer}>
         <div className={css.pageContainer}>
         <div className={css.pageTitle}>
-          <h1 style={{textAlign: 'center'}}>Create New Event</h1>
+          <h1 className={css.titleName} style={{textAlign: 'center'}}>Create New Event</h1>
         </div>
         <div className={css.photo}>
           {!photo ? (
