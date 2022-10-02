@@ -135,55 +135,25 @@ export default {
       authorId: "HackMIT",
       reviewedId: "Office of Religious, Spiritual, and Ethical Life",
       description:
-        "The textbook purchase was definitely worth it! He was so nice to me :)",
+        "Check out some religious activities on campus!",
     },
     {
       authorId: "Alpha Delta Phi (ADP)",
       reviewedId: "HackMIT",
       description:
-        "I love the bed frame! It is exactly what I wanted and was looking for.",
+        "Some of our members said that they really enjoyed this event last year.",
     },
     {
       authorId: "Office of Religious, Spiritual, and Ethical Life",
       reviewedId: "Alpha Delta Phi (ADP)",
       description:
-        "I do not recommend buying items from Hajin. It was a scam. The Kitchen Utensil Set was very dirty so I threw it away. ",
+        "Some past members have voiced their strong support for the brotherhood.",
     },
     {
       authorId: "Office of Religious, Spiritual, and Ethical Life",
       reviewedId: "HackMIT",
       description:
-        "Jason responded very quickly and I was able to get my item really quickly! I would recommend Jason for sure. ",
-    },
-    {
-      authorId: "Office of Religious, Spiritual, and Ethical Life",
-      reviewedId: "HackMIT",
-      description:
-        "I met up with Jason to pick up the item on campus. It was very quick and convenient. ",
-    },
-    {
-      authorId: "HackMIT",
-      reviewedId: "Alpha Delta Phi (ADP)",
-      description:
-        "Jason was very nice. He responded to my questions regarding the item and concerns that I had. I would definitely recommend getting items from Jason! ",
-    },
-    {
-      authorId: "HackMIT",
-      reviewedId: "Office of Religious, Spiritual, and Ethical Life",
-      description:
-        "I was not satisfied with the item due to some damages I was not aware of. However, Jason was able to just give it for me for free! Very responsible. ",
-    },
-    {
-      authorId: "Alpha Delta Phi (ADP)",
-      reviewedId: "Office of Religious, Spiritual, and Ethical Life",
-      description:
-        "I purchased my Finance textbook I needed for next semester from Micah. I was worried that it would be the different version but it was the same edition that I was looking for! It was used but still in clean, good condition. Was able to save up so much money!",
-    },
-    {
-      authorId: "Alpha Delta Phi (ADP)",
-      reviewedId: "HackMIT",
-      description:
-        "We have realized that we were in the same class which made the delivery process easier! I was able to get the shoes in our next class. This was another way of making friends! Love it :)",
+        "A great event that everyone should at least check out.",
     },
   ]
 };
