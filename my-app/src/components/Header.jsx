@@ -10,7 +10,7 @@ function Header() {
                 </button>
             </div>
             <div className={css.navItem}>
-              <img className={css.logo} src={'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/2560px-MIT_logo.svg.png'} alt="BC Thrift"/>
+              <img className={css.logo} src={'https://i.postimg.cc/JhYTncBS/Screen-Shot-2022-10-02-at-2-51-42-AM.png'} alt="BC Thrift"/>
             </div>
             <div className={css.navItem}>
                 <button>
