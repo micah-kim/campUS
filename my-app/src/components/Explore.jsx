@@ -7,6 +7,7 @@ function Explore(props) {
   const {users, items} = props;
   const [checked, setChecked] = useState('All')
   const [filteredItems, setFilteredItems] = useState(items)
+  
   function handleChange(e) {
     setChecked(e.target.value)
     if (e.target.value === 'All') {
@@ -27,18 +28,18 @@ function Explore(props) {
             <span className={css.checkmark}></span>
           </label>
           <label className={css.labelItem}>
-            <input type="radio" value="Furniture" checked={checked === 'Furniture'} onChange={handleChange}/>
-            Furniture
+            <input type="radio" value="Academic" checked={checked === 'Academic'} onChange={handleChange}/>
+            Academic
             <span class={css.checkmark}></span>
           </label>
           <label className={css.labelItem}>
-            <input type="radio" value="Clothes" checked={checked === 'Clothes'} onChange={handleChange}/>
-            Clothes
+            <input type="radio" value="Religious" checked={checked === 'Religious'} onChange={handleChange}/>
+            Religious
             <span className={css.checkmark}></span>
           </label>
           <label className={css.labelItem}>
-            <input type="radio" value="Other" checked={checked === 'Other'} onChange={handleChange}/>
-            Other
+            <input type="radio" value="Greek Life" checked={checked === 'Greek Life'} onChange={handleChange}/>
+            Greek Life
             <span className={css.checkmark}></span>
           </label>
         </div>
