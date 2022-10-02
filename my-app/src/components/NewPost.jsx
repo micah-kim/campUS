@@ -111,9 +111,9 @@ function NewPost(props) {
             onChange={handlePriceChange}
           />
           <select onChange={handleCategoryChange}>
-            <option value="Furniture" >Furniture</option>
-            <option value="Clothes">Clothes</option>
-            <option value="Other">Other</option>
+            <option value="Academics" >Academics</option>
+            <option value="Religious">Religious</option>
+            <option value="Greek Life">Greek Life</option>
           </select>
         </div>
         <div className={css.error}>{error}</div>
