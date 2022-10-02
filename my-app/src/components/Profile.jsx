@@ -56,7 +56,7 @@ function Profile(props) {
               </Link>
             ))}
           </div>
-          <h1>User Reviews</h1>
+          <h1>Comments</h1>
           <div>
             {reviews.map((review, i) => {
               const user = props.users.find((u) => u.id === review.authorId);

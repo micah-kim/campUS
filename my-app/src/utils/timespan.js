@@ -11,7 +11,7 @@ export default (date)=>{
     }
     interval = Math.floor(seconds / 2592000);
     if (interval >= 1) {
-      return interval + " months away";
+      return interval + " month(s) away";
     }
     interval = Math.floor(seconds / 86400);
     if (interval >= 1) {
