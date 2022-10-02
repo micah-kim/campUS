@@ -65,7 +65,7 @@ function Profile(props) {
                   <div className={`${css.row} ${css.userProfile}`}>
                     <img src={user.photo} />
                     <div className={css.name} to={`Profile/${user.id}`}>
-                      <div>{user.id}</div>
+                      <div><b>{user.id}</b></div>
                     </div>
                   </div>
                   <div>{review.description}</div>
