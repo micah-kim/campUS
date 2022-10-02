@@ -105,7 +105,7 @@ function NewPost(props) {
             onChange={handleDescChange}
           />
           <textarea
-            placeholder="Insert price..."
+            placeholder="Insert date..."
             rows="3"
             value={price}
             onChange={handlePriceChange}
