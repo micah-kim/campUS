@@ -11,7 +11,7 @@
   padding:0px 18px;
   z-index: 1000;
 
-  background-color: #C2C0BF;
+  background-color: #908c8c;
 }
 
 .navItem {
@@ -26,6 +26,6 @@
 
 .icon:hover {
   padding: 3px 20px;
-  background-color: #A31F34;
+  background-color: #ab3a4d;
   color: #FFF;
 }
