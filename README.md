@@ -1,4 +1,4 @@
-# HackMIT 2022 Project: CampUS
+# CampUS
 
 ## Introduction
 
