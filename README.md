@@ -1,6 +1,6 @@
 # CampUS
 
-## Introduction
+##Introduction
 
 Currently, there is no centralized platform that is user-friendly and intuitive to access events from different clubs and organizations on campus.
 This is where CampUS comes into play by introducing a new and user-friendly way to see the many different events held throughout campus by different clubs. Flaunting a fluid interface model, CampUS is a new and fun way to make the most out of your life outside of class!
